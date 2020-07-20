@@ -1,0 +1,25 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+.jumbotron{
+	background-image: url('../img/header.jpg');
+  	background-size: cover;
+  	background-position: 0 -250px;
+  	background-attachment: fixed;
+  	color: #eaeaea;
+  	height: 320px;
+}
+.jumbotron img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 2px solid #eaeaea;
+}
+.about hr {
+	width: 250px;
+	border-top: 2px solid #666;
+}
+hr {
+	border-top: 1px solid #666;
+}
+body {
+  padding-top: 3.5rem;
+}
