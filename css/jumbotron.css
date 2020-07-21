@@ -1,8 +1,8 @@
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 .jumbotron{
-	background-image: url('../img/header.jpg');
+	background-image: url('../img/header2.jpg');
   	background-size: cover;
-  	background-position: 0 -250px;
+  	background-position: 0 -300px;
   	background-attachment: fixed;
   	color: #eaeaea;
   	height: 320px;
